@@ -1,0 +1,32 @@
+{
+  "name": "color-console",
+  "version": "1.0.0",
+  "description": "Color Console Library",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts ",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pradeepsuthar/color-console.git"
+  },
+  "keywords": [
+    "Color consoles",
+    "info messages",
+    "alert messages"
+  ],
+  "author": "Pradeep Suthar <suthapradeep081@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Pradeepsuthar/color-console/issues"
+  },
+  "homepage": "https://github.com/Pradeepsuthar/color-console#readme",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
